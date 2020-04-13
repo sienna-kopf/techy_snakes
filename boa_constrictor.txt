@@ -1,0 +1,26 @@
+Boa Constrictor
+
+Attributes:
+length: 1.4 #meters
+diameter: 0.04 #meters
+type: "Boa Constrictor"
+hungry: false
+last_meals: ["baby mouse", "rat", "quails egg"]
+
+Methods:
+
+feed_snake?
+  if hungry = true
+    hungry = false
+    puts "Snake is fed."
+  else
+    puts "Snake is not hungry"
+  end
+
+add_meal
+last_meals << "goldfish"
+puts "The snake has now eaten #{last_meals}"
+
+snake_grows 
+length += num.length
+diameter += num.diameter

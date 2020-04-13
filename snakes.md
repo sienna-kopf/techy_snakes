@@ -1,5 +1,4 @@
 ## class Snake
-
 #### Attributes:
 - length (float)
 - diameter (float)
